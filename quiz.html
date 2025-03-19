@@ -18,95 +18,115 @@
       </div>
       <p>Jawab pertanyaan berikut untuk mengetahui apakah seseorang adalah wibu karbit!</p>
 
-      <!-- Pertanyaan 1 -->
-      <div class="question">
-        <p>1. Apakah mereka hanya menonton anime yang sedang viral tanpa mencoba judul-judul lain?</p>
-        <input type="radio" id="q1_yes" name="q1" value="1">
-        <label for="q1_yes">Ya</label>
-        <input type="radio" id="q1_no" name="q1" value="0">
-        <label for="q1_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 2 -->
-      <div class="question">
-        <p>2. Apakah mereka mengaku sebagai fans anime tertentu tetapi tidak tahu detail dasar seperti nama karakter atau studio produksi?</p>
-        <input type="radio" id="q2_yes" name="q2" value="1">
-        <label for="q2_yes">Ya</label>
-        <input type="radio" id="q2_no" name="q2" value="0">
-        <label for="q2_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 3 -->
-      <div class="question">
-        <p>3. Apakah mereka hanya menonton anime dengan genre mainstream (misalnya shonen) tanpa pernah mencoba genre lain seperti seinen, josei, atau slice of life?</p>
-        <input type="radio" id="q3_yes" name="q3" value="1">
-        <label for="q3_yes">Ya</label>
-        <input type="radio" id="q3_no" name="q3" value="0">
-        <label for="q3_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 4 -->
-      <div class="question">
-        <p>4. Apakah mereka tidak tahu bahwa ada adaptasi manga atau light novel dari anime yang mereka tonton?</p>
-        <input type="radio" id="q4_yes" name="q4" value="1">
-        <label for="q4_yes">Ya</label>
-        <input type="radio" id="q4_no" name="q4" value="0">
-        <label for="q4_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 5 -->
-      <div class="question">
-        <p>5. Apakah mereka hanya mendukung anime tertentu ketika sedang tren, lalu beralih ke anime lain setelah tren berakhir?</p>
-        <input type="radio" id="q5_yes" name="q5" value="1">
-        <label for="q5_yes">Ya</label>
-        <input type="radio" id="q5_no" name="q5" value="0">
-        <label for="q5_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 6 -->
-      <div class="question">
-        <p>6. Apakah mereka sering berganti-ganti waifu/husbando tergantung pada karakter yang sedang populer?</p>
-        <input type="radio" id="q6_yes" name="q6" value="1">
-        <label for="q6_yes">Ya</label>
-        <input type="radio" id="q6_no" name="q6" value="0">
-        <label for="q6_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 7 -->
-      <div class="question">
-        <p>7. Apakah mereka mengikuti fandom anime tertentu hanya karena teman-temannya melakukannya?</p>
-        <input type="radio" id="q7_yes" name="q7" value="1">
-        <label for="q7_yes">Ya</label>
-        <input type="radio" id="q7_no" name="q7" value="0">
-        <label for="q7_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 8 -->
-      <div class="question">
-        <p>8. Apakah mereka tiba-tiba mengaku sebagai fans anime lawas hanya karena baru-baru ini ada remake atau rilis baru?</p>
-        <input type="radio" id="q8_yes" name="q8" value="1">
-        <label for="q8_yes">Ya</label>
-        <input type="radio" id="q8_no" name="q8" value="0">
-        <label for="q8_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 9 -->
-      <div class="question">
-        <p>9. Apakah mereka hanya mengikuti tren anime di media sosial tanpa benar-benar menonton anime tersebut?</p>
-        <input type="radio" id="q9_yes" name="q9" value="1">
-        <label for="q9_yes">Ya</label>
-        <input type="radio" id="q9_no" name="q9" value="0">
-        <label for="q9_no">Tidak</label>
-      </div>
-
-      <!-- Pertanyaan 10 -->
-      <div class="question">
-        <p>10. Apakah mereka lebih tertarik pada estetika karakter dibandingkan cerita atau pesan dalam anime?</p>
-        <input type="radio" id="q10_yes" name="q10" value="1">
-        <label for="q10_yes">Ya</label>
-        <input type="radio" id="q10_no" name="q10" value="0">
-        <label for="q10_no">Tidak</label>
-      </div>
+<!-- Pertanyaan 1 -->
+<div class="question">
+    <p>1. Apakah mereka hanya menonton anime yang sedang viral tanpa mencoba judul-judul lain?</p>
+    <input type="radio" id="q1_yes" name="q1" value="1">
+    <label for="q1_yes">Ya</label>
+    <input type="radio" id="q1_no" name="q1" value="0">
+    <label for="q1_no">Tidak</label>
+    <input type="radio" id="q1_unknown" name="q1" value="0">
+    <label for="q1_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 2 -->
+  <div class="question">
+    <p>2. Apakah mereka mengaku sebagai fans anime tertentu tetapi tidak tahu detail dasar seperti nama karakter atau studio produksi?</p>
+    <input type="radio" id="q2_yes" name="q2" value="1">
+    <label for="q2_yes">Ya</label>
+    <input type="radio" id="q2_no" name="q2" value="0">
+    <label for="q2_no">Tidak</label>
+    <input type="radio" id="q2_unknown" name="q2" value="0">
+    <label for="q2_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 3 -->
+  <div class="question">
+    <p>3. Apakah mereka hanya menonton anime dengan genre mainstream (misalnya shonen) tanpa pernah mencoba genre lain seperti seinen, josei, atau slice of life?</p>
+    <input type="radio" id="q3_yes" name="q3" value="1">
+    <label for="q3_yes">Ya</label>
+    <input type="radio" id="q3_no" name="q3" value="0">
+    <label for="q3_no">Tidak</label>
+    <input type="radio" id="q3_unknown" name="q3" value="0">
+    <label for="q3_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 4 -->
+  <div class="question">
+    <p>4. Apakah mereka tidak tahu bahwa ada adaptasi manga atau light novel dari anime yang mereka tonton?</p>
+    <input type="radio" id="q4_yes" name="q4" value="1">
+    <label for="q4_yes">Ya</label>
+    <input type="radio" id="q4_no" name="q4" value="0">
+    <label for="q4_no">Tidak</label>
+    <input type="radio" id="q4_unknown" name="q4" value="0">
+    <label for="q4_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 5 -->
+  <div class="question">
+    <p>5. Apakah mereka hanya mendukung anime tertentu ketika sedang tren, lalu beralih ke anime lain setelah tren berakhir?</p>
+    <input type="radio" id="q5_yes" name="q5" value="1">
+    <label for="q5_yes">Ya</label>
+    <input type="radio" id="q5_no" name="q5" value="0">
+    <label for="q5_no">Tidak</label>
+    <input type="radio" id="q5_unknown" name="q5" value="0">
+    <label for="q5_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 6 -->
+  <div class="question">
+    <p>6. Apakah mereka sering berganti-ganti waifu/husbando tergantung pada karakter yang sedang populer?</p>
+    <input type="radio" id="q6_yes" name="q6" value="1">
+    <label for="q6_yes">Ya</label>
+    <input type="radio" id="q6_no" name="q6" value="0">
+    <label for="q6_no">Tidak</label>
+    <input type="radio" id="q6_unknown" name="q6" value="0">
+    <label for="q6_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 7 -->
+  <div class="question">
+    <p>7. Apakah mereka mengikuti fandom anime tertentu hanya karena teman-temannya melakukannya?</p>
+    <input type="radio" id="q7_yes" name="q7" value="1">
+    <label for="q7_yes">Ya</label>
+    <input type="radio" id="q7_no" name="q7" value="0">
+    <label for="q7_no">Tidak</label>
+    <input type="radio" id="q7_unknown" name="q7" value="0">
+    <label for="q7_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 8 -->
+  <div class="question">
+    <p>8. Apakah mereka tiba-tiba mengaku sebagai fans anime lawas hanya karena baru-baru ini ada remake atau rilis baru?</p>
+    <input type="radio" id="q8_yes" name="q8" value="1">
+    <label for="q8_yes">Ya</label>
+    <input type="radio" id="q8_no" name="q8" value="0">
+    <label for="q8_no">Tidak</label>
+    <input type="radio" id="q8_unknown" name="q8" value="0">
+    <label for="q8_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 9 -->
+  <div class="question">
+    <p>9. Apakah mereka hanya mengikuti tren anime di media sosial tanpa benar-benar menonton anime tersebut?</p>
+    <input type="radio" id="q9_yes" name="q9" value="1">
+    <label for="q9_yes">Ya</label>
+    <input type="radio" id="q9_no" name="q9" value="0">
+    <label for="q9_no">Tidak</label>
+    <input type="radio" id="q9_unknown" name="q9" value="0">
+    <label for="q9_unknown">Tidak Tahu</label>
+  </div>
+  
+  <!-- Pertanyaan 10 -->
+  <div class="question">
+    <p>10. Apakah mereka lebih tertarik pada estetika karakter dibandingkan cerita atau pesan dalam anime?</p>
+    <input type="radio" id="q10_yes" name="q10" value="1">
+    <label for="q10_yes">Ya</label>
+    <input type="radio" id="q10_no" name="q10" value="0">
+    <label for="q10_no">Tidak</label>
+    <input type="radio" id="q10_unknown" name="q10" value="0">
+    <label for="q10_unknown">Tidak Tahu</label>
+  </div>
 
       <!-- Tombol Submit -->
       <button type="submit" class="btn">Lihat Hasil</button>
